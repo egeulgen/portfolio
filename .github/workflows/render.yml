@@ -63,7 +63,7 @@ jobs:
 
       - name: Deploy 🚀
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           BRANCH: gh-pages
           FOLDER: _site

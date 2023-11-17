@@ -5,7 +5,7 @@ navbar:
     - icon: fa-home
       href: index.html
     - text: "CV"
-      href: CV_doc/egeulgen_CV.html
+      href: CV.html
     - text: "Lectures"
       icon: fa-chalkboard-teacher
       menu:

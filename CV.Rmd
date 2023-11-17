@@ -7,7 +7,7 @@ output:
         code_folding: "none"
 ---
 
-<object data="CV_doc/egeulgen_CV.pdf" type="application/pdf" width="700px" height="700px">
+<object data="CV_doc/egeulgen_CV.pdf" type="application/pdf" width="800px" height="700px">
     <embed src="CV_doc/egeulgen_CV.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="CV_doc/egeulgen_CV.pdf">Download PDF</a>.</p>
     </embed>

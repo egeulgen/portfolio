@@ -18,4 +18,4 @@ MD-PhD professional in bioinformatics with a medical degree from Acibadem Univer
 
 <!-- Placeholder of Table of Contents on the homepage, with links to the actual page and PDF version -->
 
-- [Example](./example.html) ([PDF](./example.pdf))
+- [CV document](./CV_doc/egeulgen_CV.html) ([PDF](.CV_doc/egeulgen_CV.pdf))

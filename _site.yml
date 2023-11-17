@@ -1,11 +1,11 @@
-name: "my-website"
+name: "ege-ulgen-cv"
 navbar:
-  title: "My Website"
+  title: "Ege Ulgen MD, PhD"
   left:
     - icon: fa-home
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "CV"
+      href: CV_doc/egeulgen_CV.html
     - text: "Lectures"
       icon: fa-chalkboard-teacher
       menu:

@@ -652,70 +652,70 @@ LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
 [1
 
 {/home/runner/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc} <./photo.jpeg>]
-Underfull \hbox (badness 5161) in paragraph at lines 245--245
+Underfull \hbox (badness 5161) in paragraph at lines 247--247
 [][]\T1/ClearSans-TLF/regular/n/10 PANACEA. Per-son-al-ized Network-Based Anti-Cancer Ther-apy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--249
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
 
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 256--256
+Underfull \hbox (badness 3601) in paragraph at lines 258--258
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Ma-chine Learn-ing. Grade: 94.8% ^^U cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Find-ing Hid-den Mes-sages in DNA (Bioin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 \T1/ClearSans-TLF/regular/n/10 for-mat-ics I) (with Hon-ors). Grade: 96.0% ^^U cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Com-par-ing Genes, Pro-teins, and Genomes
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 259--259
+Underfull \hbox (badness 1701) in paragraph at lines 261--261
 \T1/ClearSans-TLF/regular/n/10 (Bioin-for-mat-ics III) (with Hon-ors). Grade: 100% ^^U cours-
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 261--261
+Underfull \hbox (badness 3657) in paragraph at lines 263--263
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Ge-nomic Data Sci-ence and Clus-ter-ing (Bioin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 \T1/ClearSans-TLF/regular/n/10 for-mat-ics V) (with Hon-ors). Grade: 94.0% ^^U cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Bioin-for-mat-ics Spe-cial-iza-tion. cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--265
+Underfull \hbox (badness 10000) in paragraph at lines 257--267
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 275.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 277.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 275.
+(Font)              scaled to size 10.0pt on input line 277.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 338.
+(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 333.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 338.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 333.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 338.
+(Font)              scaled to size 10.0pt on input line 333.
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -772,7 +772,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  117i,12n,121p,589b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/runner/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on egeulgen_CV.pdf (4 pages, 113120 bytes).
+Output written on egeulgen_CV.pdf (4 pages, 113160 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream

@@ -78,7 +78,9 @@ git - 4/5 \hfill Docker - 3/5 \hfill GitLab CI - 4/5 \hfill GitHub Actions - 4/5
 # Strengths
 
 **Curiosity** \hfill Proactively seeks innovative solutions.
+
 **Time Management** \hfill Effectively prioritizes tasks, ensuring timely completion of milestones.
+
 **Quick Learner** \hfill Adapts to new challenges swiftly.
 
 # Software

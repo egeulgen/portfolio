@@ -60,7 +60,12 @@ jobs:
           pkgs <- installed.packages()[, "Package"]
           sessioninfo::session_info(pkgs, include_base = TRUE)
         shell: Rscript {0}
-
+    
+      - name: Render CV document
+        run: |
+          rmarkdown::render("CV_doc/egeulgen_CV.Rmd")
+        shell: Rscript {0}
+        
       - name: Render site
         run: |
           rmarkdown::render_site()

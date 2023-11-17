@@ -8,8 +8,6 @@ output:
         code_folding: "none"
 ---
 
-Hel
-
 MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Currently a Bioinformatics Engineer at Genomics England, where I focus on creating/enhancing software for the cancer genomic medicine service.
 
 ***

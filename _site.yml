@@ -20,9 +20,9 @@ navbar:
         href:
   right:
     - icon: fab fa-github
-      href: https://github.com/statOmics/Rmd-website
-    - text: "statOmics"
-      href: http://statomics.github.io/
+      href: https://github.com/egeulgen/CV
+    - text: "Ege Ulgen"
+      href: https://github.com/egeulgen/CV
 output:
   html_document:
       code_download: true

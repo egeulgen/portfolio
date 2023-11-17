@@ -35,6 +35,7 @@ tribble(
 
 # Experience
 
+```{r}
 tribble(
   ~ Experience, ~ Year, ~ Institution, ~Description,
   "Bioinformatics Engineer", "2023-present", "Genomics England", "Developing features for and maintaining software for the cancer genomic medicine service.",
@@ -45,6 +46,7 @@ tribble(
   "Research Group Member", "2012-present", "ACU Brain Tumor Research Group", "Participate in research on brain tumors, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.",
 ) %>% 
   detailed_entries(Experience, Year, Institution, Description)
+```
 
 # Skills
 

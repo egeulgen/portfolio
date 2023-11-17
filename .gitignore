@@ -10,4 +10,4 @@ _site/
 # Don't ignore these specific files
 !footer.html
 *.DS_Store
-CV.Rproj
+*.Rproj

@@ -8,8 +8,6 @@ output:
         code_folding: "none"
 ---
 
-[PDF](./CV_doc/egeulgen_CV.pdf)
+[PDF version](./CV_doc/egeulgen_CV.pdf)
 
-```{r echo=FALSE}
-htmltools::includeHTML("CV_doc/egeulgen_CV.html")
-```
+<iframe src="./CV_doc/egeulgen_CV.html" height="600" width="100%" style="border:none;"></iframe>

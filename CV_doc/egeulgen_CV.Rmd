@@ -26,46 +26,25 @@ library(vitae)
 ```{r}
 library(tibble)
 tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "M.D., summa cum laude", "2009-2015", "Acibadem University", "Istanbul, Turkey",
-  "Ph.D., Biostatistics and Bioinformatics", "2016-2022", "Acibadem University", "Istanbul, Turkey",
+  ~ Degree, ~ Year, ~ Institution,
+  "M.D., summa cum laude", "2009-2015", "Acibadem University",
+  "Ph.D., Biostatistics and Bioinformatics", "2016-2022", "Acibadem University",
 ) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+  detailed_entries(Degree, Year, Institution)
 ```
 
 # Experience
 
-> **Genomics England Limited** \hfill 2023--present
-
-Working as a Bioinformatics Engineer to develop features for and maintain the cancer short read sequencing pipeline. First Level Manager: Javier Lopez
-
-> **Epigenetiks Genetik Biyoinformatik Yazılım A.Ş** \hfill 2018--2022
-
-Worked on multiple -omics analysis pipelines for the local medical diagnostics company based in Istanbul--Turkey. Responsibilities included: implementation, continuous development and maintenance of whole exome sequencing analysis pipeline for aiding the diagnosis of undiagnosed subjects with rare diseases, and whole exome sequencing analysis pipeline for cancer diagnostics and prognostics. Supervisor: Prof. Ugur Sezerman, Ph.D.
-
-> **Akalin Lab, Max--Delbrück--Centrum für Molekulare Medizin** \hfill 2018
-
-Worked on a project on the effects of "doublet cells" on single--cell RNAseq analysis. Using a real data set and simulations, I demonstrated that doublets cause pseudo--paths (false patterns of differentiation), negatively affect discrimination between different cell types and have a negative effect on imputation results. Supervisors: Vedran Franke, Ph.D., Altuna Akalin, Ph.D.
-
-> **Sezerman Lab, Acibadem University** \hfill 2016--2022
-
-Research in -omics analyses of various complex diseases, including cancers, neurological diseases and gynecological diseases, particularly focused on transriptomics and proteomics analyses, utilizing differential expression analysis tools as well as machine learning approaches to classify patients from controls and identify genes important for pathogenesis. Supervisor: Prof. Ugur Sezerman, Ph.D.
-
-> **NOT Nöroonkoloji Teknolojileri Ltd Şti.** \hfill 2015--2022
-
-Developed and maintained the Whole Exome Sequencing pipeline for the local medical diagnostics company based in Istanbul-Turkey. The pipeline allows for the identification of clinically--relevant genomics findings in brain tumors, especially regarding gliomas. Supervisor: Prof. Koray Ozduman, MD
-
-> **Elective Clerkship as Research Intern at Gunel Lab -- Yale University School of Medicine** \hfill 2014
-
-Research on gliomas. I performed in-vitro experiments, including cloning, cell--culture and luciferase assays to reveal that a risk allele augments the effect of an enhancer targeting the oncogene MYC, hence facilitating gliomagenesis. Prof. Murat Gunel, MD
-
-> **Research Internships at Gunel Lab -- Yale University School of Medicine** \hfill 2011-2013
-
-Research in neurogenetics, particularly malformations of cortical development, utilizing molecular techniques to investigate the underlying genetic/molecular mechanisms, analyzing Whole Exome Sequencing results and verifying relevant findings. Research in vestibular schwannomas, performing functional in-vitro analyses to investigate the effect of a mutation in the pathogenesis of vestibular schwannomas. Supervisor: Prof. Murat Gunel, MD
-
-> **Acıbadem University Brain Tumor Research Group** \hfill 2012--present
-
-Participate in research on brain tumors, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma. Supervisor: Prof. Koray Ozduman, MD
+tribble(
+  ~ Experience, ~ Year, ~ Institution, ~Description,
+  "Bioinformatics Engineer", "2023-present", "Genomics England", "Developing features for and maintaining software for the cancer genomic medicine service.",
+  "Bioinformatics Specialist", "2018-2022", "Epigenetiks", "Worked on developing and maintaining multiple -omics analysis pipelines for the local medical diagnostics company. Responsibilities included: implementation, continuous development and maintenance of whole exome sequencing analysis pipeline for aiding the diagnosis of undiagnosed subjects with rare diseases, and whole exome sequencing analysis pipeline for cancer diagnostics and prognostics.",
+  "Visiting Researcher", "2018", "Akalin Lab, Max-Delbrück-Centrum für Molekulare Medizin", "Worked on a project on the effects of "doublet cells" on single-cell RNAseq analysis. Using a real data set and simulations, I demonstrated that doublets cause pseudo-paths (false patterns of differentiation), negatively affect discrimination between different cell types and have a negative effect on imputation results.",
+  "Bioinformatics Consultant", "2015-2022", "NeuroOncology Technologies", "Developed and maintained the Whole Exome Sequencing pipeline for the local medical diagnostics company based in Istanbul-Turkey. The pipeline allows for the identification of clinically--relevant genomics findings in brain tumors, especially regarding gliomas",
+  "Research Internships", "2011-2014", "Yale University School of Medicine", "Research in neurogenetics, particularly malformations of cortical development, utilizing molecular techniques to investigate the underlying genetic/molecular mechanisms, analyzing Whole Exome Sequencing results and verifying relevant findings. Research in brain tumours, performing functional in-vitro analyses to investigate the effect of a SNP in the pathogenesis of gliomas.",
+  "Research Group Member", "2012-present", "ACU Brain Tumor Research Group", "Participate in research on brain tumors, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.",
+) %>% 
+  detailed_entries(Experience, Year, Institution, Description)
 
 # Skills
 

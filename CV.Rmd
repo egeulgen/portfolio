@@ -8,8 +8,8 @@ output:
         code_folding: "none"
 ---
 
-<object data="CV_doc/egeulgen_CV.pdf" type="application/pdf" width="800px" height="1125px">
-    <embed src="CV_doc/egeulgen_CV.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="CV_doc/egeulgen_CV.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+[PDF](./CV_doc/egeulgen_CV.pdf)
+
+```{r echo=FALSE}
+htmltools::includeHTML("CV_doc/egeulgen_CV.html")
+```

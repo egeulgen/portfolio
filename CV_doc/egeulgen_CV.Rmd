@@ -52,11 +52,11 @@ tribble(
 
 ## Programming
 
-python - 5/5 \hfill R - 5/5 \hfill bash - 4/5 \hfill C++ - 2/5
+python, R, bash, C++
 
 ## Development
 
-git - 4/5 \hfill Docker - 3/5 \hfill GitLab CI - 4/5 \hfill GitHub Actions - 4/5 \hfill PyCharm - 5/5
+git, Docker, GitLab CI, GitHub Actions, PyCharm
 
 # Strengths
 

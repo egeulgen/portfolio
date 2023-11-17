@@ -2,12 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
-
 # Rmd output
 *.html
 *_files/
 *_cache/
 _site/
-
 # Don't ignore these specific files
 !footer.html
+*.DS_Store
+CV.Rproj

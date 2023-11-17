@@ -11,7 +11,9 @@ github: egeulgen
 linkedin: ege-ulgen-378984159
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Currently a Bioinformatics Engineer at Genomics England, where I focus on creating and enhancing software for the cancer genomic medicine service."
-output: vitae::twentyseconds
+output:
+  vitae::markdowncv:
+    theme: kjhealy
 ---
 
 ```{r setup, include=FALSE}

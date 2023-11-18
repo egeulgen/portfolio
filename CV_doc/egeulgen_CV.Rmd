@@ -8,7 +8,7 @@ pronouns: he/him
 profilepic: photo.jpeg
 email: "Ege.Ulgen@genomicsengland.co.uk"
 github: egeulgen
-linkedin: ege-ulgen-378984159
+linkedin: ege-ulgen
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Currently a Bioinformatics Engineer at Genomics England, where I focus on creating and enhancing software for the cancer genomic medicine service."
 output:
@@ -30,7 +30,7 @@ tribble(
   "Ph.D., Biostatistics and Bioinformatics", "2016-2022", "Acibadem University",
   "M.D., summa cum laude", "2009-2015", "Acibadem University",
 ) %>% 
-  detailed_entries(Degree, Year, Institution)
+  detailed_entries(" ", Year, Institution, Degree)
 ```
 
 # Experience

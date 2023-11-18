@@ -6,9 +6,9 @@ navbar:
       href: index.html
     - text: "About me"
       href: CV.html
-    - text: "Work"
+    - text: "Sofware"
       icon: fas fa-code
-      href: work.html
+      href: software.html
     - text: "Courses"
       icon: fa-chalkboard-teacher
       menu:

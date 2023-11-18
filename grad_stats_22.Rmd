@@ -1,5 +1,5 @@
 ---
-title: "Biostatics Course - Lecture Notes - 2021"
+title: "Probability & Statististics - Lecture Notes - 2022"
 output:
     html_document:
         code_download: false
@@ -8,12 +8,12 @@ output:
         code_folding: "none"
 ---
 
-[https://github.com/egeulgen/MED131_21_22](https://github.com/egeulgen/MED131_21_22)
+[https://github.com/egeulgen/BB503_BB602_22_23](https://github.com/egeulgen/BB503_BB602_22_23)
 
 ```{r echo=FALSE}
 library(httr)
 
-response <- httr::GET("https://raw.githubusercontent.com/egeulgen/MED131_21_22/main/README.md")
+response <- httr::GET("https://raw.githubusercontent.com/egeulgen/BB503_BB602_22_23/main/README.md")
 content <- httr::content(response, "text", encoding = "UTF-8")
 ```
 

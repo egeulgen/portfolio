@@ -1,5 +1,5 @@
 ---
-title: "Ege Ulgen MD, PhD"
+title: "Hi! I'm Ege"
 output:
     html_document:
         code_download: false
@@ -8,12 +8,29 @@ output:
         code_folding: "none"
 ---
 
-MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Currently a Bioinformatics Engineer at Genomics England, where I focus on creating/enhancing software for the cancer genomic medicine service.
+```{css, echo=FALSE}
+.columns {
+  display: flex;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+```
 
-***
-
-### Contents
-
-<!-- Placeholder of Table of Contents on the homepage, with links to the actual page and PDF version -->
-
-- [CV document](./CV.html) ([PDF](./CV_doc/egeulgen_CV.pdf))
+:::: {.columns}
+::: {.column width="30%"}
+![](CV_doc/photo.jpeg)
+```{css, echo=FALSE}
+img {
+  border-radius: 50%;
+  clip-path: circle(50%);
+}
+```
+:::
+::: {.column width="70%"}
+I'm an MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Since 2023, I've been working as a Bioinformatics Engineer at Genomics England, where I focus on creating and enhancing software for the cancer genomic medicine service.
+:::
+::::

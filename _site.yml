@@ -4,9 +4,12 @@ navbar:
   left:
     - icon: fa-home
       href: index.html
-    - text: "CV"
+    - text: "About me"
       href: CV.html
-    - text: "Lectures"
+    - text: "Work"
+      icon: fas fa-code
+      href: work.html
+    - text: "Courses"
       icon: fa-chalkboard-teacher
       menu:
         - text: "Biostatistics (2021)"
@@ -15,18 +18,17 @@ navbar:
           href: grad_stats_21.html
         - text: "Special Topics in Biostatistics and Bioinformatics"
           href: grad_bioinfo.html
-    - text: "Labs"
-      icon: fa-laptop
-      menu:
-      - text: "Lab 1"
-        href:
-      - text: "Lab 2"
-        href:
+        - text: "Biostatistics (2022)"
+          href: udergrad_stats_21.html
+        - text: "Probability and Statistics (2022)"
+          href: grad_stats_21.html
   right:
+    - icon: fas fa-square-envelope
+      href: "mailto:Ege.Ulgen@genomicsengland.co.uk"
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/ege-ulgen/
     - icon: fab fa-github
-      href: https://github.com/egeulgen/CV
-    - text: "Ege Ulgen"
-      href: https://github.com/egeulgen/CV
+      href: https://github.com/egeulgen
 output:
   html_document:
       code_download: true

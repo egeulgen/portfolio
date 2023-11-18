@@ -9,8 +9,12 @@ navbar:
     - text: "Lectures"
       icon: fa-chalkboard-teacher
       menu:
-        - text: "Example"
-          href: example.html
+        - text: "Biostatistics (2021)"
+          href: udergrad_stats_21.html
+        - text: "Probability and Statistics (2021)"
+          href: grad_stats_21.html
+        - text: "Special Topics in Biostatistics and Bioinformatics"
+          href: grad_bioinfo.html
     - text: "Labs"
       icon: fa-laptop
       menu:

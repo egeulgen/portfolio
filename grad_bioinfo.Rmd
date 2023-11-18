@@ -1,0 +1,20 @@
+---
+title: "Special Topics in Biostatistics and Bioinformatics - Lecture Notes"
+output:
+    html_document:
+        code_download: false
+        toc: false
+        number_sections: false
+        code_folding: "none"
+---
+
+[https://github.com/egeulgen/BB512_BB612_21_22](https://github.com/egeulgen/BB512_BB612_21_22)
+
+```{r echo=FALSE}
+library(httr)
+
+response <- httr::GET("https://raw.githubusercontent.com/egeulgen/BB512_BB612_21_22/main/README.md")
+content <- httr::content(response, "text", encoding = "UTF-8")
+```
+
+`r content`

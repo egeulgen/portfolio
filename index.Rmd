@@ -31,6 +31,12 @@ img {
 ```
 :::
 ::: {.column width="70%"}
-I'm an MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Since 2023, I've been working as a Bioinformatics Engineer at Genomics England, where I focus on creating and enhancing software for the cancer genomic medicine service.
+Welcome to my portfolio! I'm a passionate MD-PhD professional specializing in bioinformatics, blending a medical degree from Acibadem University with postdoctoral experience at Yale University and a recent PhD in Biostatistics and Bioinformatics (2022). Currently, I contribute to the field as a Bioinformatics Engineer at Genomics England, focusing on developing cutting-edge software for the cancer genomic medicine service.
+
+Throughout my journey, I've been fueled by a love for learning, from exploring MOOCs to delving into the depths of the "science YouTube." Beyond the world of bioinformatics, I'm a self-proclaimed coffee-holic geek with a keen eye for aesthetics. While I **used to** be a photography enthusiast, my current focus remains on creating and enhancing software that impacts the forefront of medical research.
+
+Explore my portfolio to learn more about my professional journey and the exciting projects I've been involved in. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ege-ulgen/) or drop me an [e-mail](mailto:Ege.Ulgen@genomicsengland.co.uk) to discuss collaborations, share insights, or simply chat about the fascinating intersection of medicine, bioinformatics, and creativity.
 :::
 ::::
+
+

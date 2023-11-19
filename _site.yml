@@ -19,9 +19,9 @@ navbar:
         - text: "Special Topics in Biostatistics and Bioinformatics"
           href: grad_bioinfo.html
         - text: "Biostatistics (2022)"
-          href: udergrad_stats_21.html
+          href: udergrad_stats_22.html
         - text: "Probability and Statistics (2022)"
-          href: grad_stats_21.html
+          href: grad_stats_22.html
   right:
     - icon: fas fa-square-envelope
       href: "mailto:Ege.Ulgen@genomicsengland.co.uk"

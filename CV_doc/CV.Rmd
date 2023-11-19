@@ -5,15 +5,13 @@ position: "MD, PhD"
 address: "Genomics England Limited"
 phone: +44 7796 427839
 pronouns: he/him
-profilepic: photo.jpeg
+profilepic: ../images/eu_pp.jpg
 email: "Ege.Ulgen@genomicsengland.co.uk"
 github: egeulgen
 linkedin: ege-ulgen
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. Currently a Bioinformatics Engineer at Genomics England, where I focus on creating and enhancing software for the cancer genomic medicine service."
-output:
-  vitae::markdowncv:
-    theme: davewhipp
+output: vitae::twentyseconds
 ---
 
 ```{r setup, include=FALSE}
@@ -52,11 +50,13 @@ tribble(
 
 ## Programming
 
-python, R, bash, C++
+![Python](../images/Python-logo-notext.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating1.png) ![R](../images/Rlogo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating1.png) ![bash](../images/bash_logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png)
 
 ## Development
 
-git, Docker, GitLab CI, GitHub Actions, PyCharm
+![git](../images/Git-Logo-2Color.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![docker](../images/docker_logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) 
+
+![PyCharm](../images/PyCharm_Icon.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![GitLab CI/CD](../images/gitlab-ci-cd.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png)  ![GitHub Actions](../images/githubactions.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png) 
 
 # Strengths
 

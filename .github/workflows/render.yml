@@ -63,8 +63,7 @@ jobs:
     
       - name: Render CV document
         run: |
-          rmarkdown::render("CV_doc/egeulgen_CV.Rmd")
-          rmarkdown::render("CV_doc/egeulgen_CV.Rmd", output_format = "vitae::twentyseconds")
+          rmarkdown::render("CV_doc/CV.Rmd", output_file = "egeulgen_CV.pdf")
         shell: Rscript {0}
         
       - name: Render site

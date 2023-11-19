@@ -22,7 +22,7 @@ output:
 
 :::: {.columns}
 ::: {.column width="30%"}
-![](CV_doc/photo.jpeg)
+![](images/eu_pp.jpg)
 ```{css, echo=FALSE}
 img {
   border-radius: 50%;

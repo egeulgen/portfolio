@@ -5,7 +5,8 @@ navbar:
     - icon: fa-home
       href: index.html
     - text: "About me"
-      href: CV.html
+      icon: fas fa-circle-info
+      href: about-me.html
     - text: "Sofware"
       icon: fas fa-code
       href: software.html

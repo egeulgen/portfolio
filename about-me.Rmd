@@ -8,13 +8,6 @@ output:
         code_folding: "none"
 ---
 
-```{r setup, include=FALSE}
-library(tibble)
-library(knitr)
-
-opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
-
 I'm an MD-PhD professional in bioinformatics with a medical degree from Acibadem University in 2015, postdoctoral experience at Yale University in 2016, followed by a PhD in Biostatistics and Bioinformatics in 2022. As of 2023, I've been working as a Bioinformatics Engineer at Genomics England, where I focus on maintaining and enhancing software for the cancer genomic medicine service.
 
 My CV (PDF) is also available [here](./CV_doc/egeulgen_CV.pdf)

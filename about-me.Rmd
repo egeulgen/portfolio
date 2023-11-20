@@ -16,6 +16,16 @@ My CV (PDF) is also available [here](./CV_doc/egeulgen_CV.pdf)
 
 ![](images/career_timeline.png)
 
+<!-- Add Slick carousel styles -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+I'm an MD-PhD professional in bioinformatics with a medical degree...
+
+<!-- Add jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Add Slick carousel script -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script>
   $(document).ready(function(){

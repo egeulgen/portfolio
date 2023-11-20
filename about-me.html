@@ -328,16 +328,60 @@ href="./CV_doc/egeulgen_CV.pdf">here</a></p>
 <h1>Experience</h1>
 <p><img src="images/career_timeline.png" /></p>
 <style type="text/css">
+.experience-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+}
+
 .columns {
   display: flex;
   align-items: center;
 }
+
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 20px; 
+  margin-right: 20px;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.width-80 {
+  width: 80%;
 }
 </style>
+<div class="experience-slider">
+<div class="slide">
+<pre><code>&lt;div class=&quot;columns&quot;&gt;
+  &lt;div class=&quot;column width-20&quot;&gt;
+    ![](images/Genomics_England_logo.svg)
+  &lt;/div&gt;
+  &lt;div class=&quot;column width-80&quot;&gt;
+    ### Bioinformatics Engineer - Genomics England
+    #### 2023-
+    Developing features for and maintaining software for the cancer genomic medicine service.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+<div class="slide">
+<pre><code>&lt;div class=&quot;columns&quot;&gt;
+  &lt;div class=&quot;column width-20&quot;&gt;
+    ![](images/ACU_logo.png)
+  &lt;/div&gt;
+  &lt;div class=&quot;column width-80&quot;&gt;
+    ### Lecturer - Acibadem University
+    #### 2021-2023
+    Worked as a lecturer for the undergrad and grad courses on biostatistics and bioinformatics topics.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
 <div class="columns">
 <div class="column" style="width:20%;">
 <p><img src="images/Genomics_England_logo.svg" /></p>

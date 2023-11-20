@@ -6,7 +6,6 @@ output:
         toc: false
         number_sections: false
         code_folding: "none"
-        in_header: slick-carousel.html
 ---
 
 ```{r setup, include=FALSE}
@@ -121,7 +120,7 @@ Developed and maintained the Whole Exome Sequencing pipeline for the local medic
 :::
 ::: {.column width="80%"}
 ### Research Group Member - ACU Brain tumour Research Group
-#### 2012-present
+#### 2012-
 Participate in research on brain tumours, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.
 :::
 ::::

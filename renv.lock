@@ -246,6 +246,18 @@
       ],
       "Hash": "c35768291560ce302c0a6589f92e837d"
     },
+    "checkmate": {
+      "Package": "checkmate",
+      "Version": "2.3.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "backports",
+        "utils"
+      ],
+      "Hash": "ed4275b13c6ab74b89a31def0b6bf835"
+    },
     "cli": {
       "Package": "cli",
       "Version": "3.6.1",
@@ -588,6 +600,21 @@
         "utils"
       ],
       "Hash": "a2326a66919a3311f7fbb1e3bf568283"
+    },
+    "htmlwidgets": {
+      "Package": "htmlwidgets",
+      "Version": "1.6.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "grDevices",
+        "htmltools",
+        "jsonlite",
+        "knitr",
+        "rmarkdown",
+        "yaml"
+      ],
+      "Hash": "a865aa85bcb2697f47505bfd70422471"
     },
     "httr": {
       "Package": "httr",
@@ -1053,6 +1080,25 @@
         "utils"
       ],
       "Hash": "3f9796a8d0a0e8c6eb49a4b029359d1f"
+    },
+    "slickR": {
+      "Package": "slickR",
+      "Version": "0.6.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "base64enc",
+        "checkmate",
+        "htmltools",
+        "htmlwidgets",
+        "lifecycle",
+        "stats",
+        "tools",
+        "utils",
+        "xml2"
+      ],
+      "Hash": "8359234c9363ecf4c39be994e28f7db6"
     },
     "stringi": {
       "Package": "stringi",

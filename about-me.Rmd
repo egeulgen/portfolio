@@ -7,7 +7,7 @@ output:
         number_sections: false
         code_folding: "none"
     in_header:
-      - "https://code.jquery.com/jquery-3.6.0.min.js"
+      - "https://code.jquery.com/jquery-3.7.1.min.js"
       - "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
       - "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
 ---

@@ -14,93 +14,112 @@ My CV (PDF) is also available [here](./CV_doc/egeulgen_CV.pdf)
 
 # Experience
 
-![](images/career_timeline.png)
+```{r, echo=FALSE}
+library(slickR)
+library(htmltools)
 
-```{css, echo=FALSE}
-.columns {
-  display: flex;
-  align-items: center;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  margin-right: 20px;
+generate_div <- function(role_and_company, years, description, logo_path) {
+    description_div <- tags$div(
+        tags$h3(role_and_company,
+                style = css(color = "black")), 
+        tags$div(
+            tags$h4(years,
+                    style = css(color = "black")), 
+            tags$p(description,
+                   style = css(color = "black"))
+        )
+    )
+    
+    d <- tags$div(
+        style = css(display = "flex", "align-items" = "center"),
+        tags$div(
+            style = css(display = "flex", "flex-direction" = "column", "margin-right" = "20px", width = "20%"),
+            tags$img(src=logo_path)
+        ),
+        tags$div(
+            style = css(display = "flex", "flex-direction" = "column", "margin-right" = "20px", width = "80%", "text-align" = "left"), 
+            description_div
+        )
+    )
+    return(d)
 }
 ```
 
-:::: {.columns}
-::: {.column width="20%"}
-![](images/Genomics_England_logo.svg)
-:::
-::: {.column width="80%"}
-### Bioinformatics Engineer - Genomics England
-#### 2023-
-Developing features for and maintaining software for the cancer genomic medicine service.
-:::
-::::
+```{r, echo=FALSE, out.height="200px"}
+experiences <- slick_list(
+    generate_div(
+        role_and_company = "Bioinformatics Engineer - Genomics England",
+        years = "2023-",
+        description = "Developing features for and maintaining software for the cancer genomic medicine service.",
+        logo_path = "images/Genomics_England_logo.svg"
+    ),
+    generate_div(
+        role_and_company = "Lecturer - Acibadem University",
+        years = "2021-2023",
+        description = "Worked as a lecturer for the undergrad and grad courses on biostatistics and bioinformatics topics.",
+        logo_path = "images/ACU_logo.png"
+    ),
+    generate_div(
+        role_and_company = "Bioinformatics Specialist - Epigenetiks",
+        years = "2018-2023",
+        description = "Worked on developing and maintaining multiple whole exome sequencing-based analysis pipelines (cancer and rare disease applications) for the Istanbul-based medical diagnostics company.",
+        logo_path = "images/epigenetiks_logo.png"
+    ),
+    generate_div(
+        role_and_company = "Postdoctoral Associate - Yale University",
+        years = "2016",
+        description = "Briefly worked as a post-doc associate at the Gunel Lab, Yale School of Medicine, where I had previously done multiple internships between 2011-2014. Research in neurogenetics, particularly malformations of cortical development and brain tumours, performing functional in-vitro analyses to investigate the effect of a SNP in the pathogenesis of gliomas.",
+        logo_path = "images/yale-logo.svg"
+    ),
+    generate_div(
+        role_and_company = "Bioinformatics Consultant - NeuroOncology Technologies",
+        years = "2015-2023",
+        description = "Developed and maintained the Whole Exome Sequencing pipeline for the local medical diagnostics company based in Istanbul-Turkey. The pipeline allows for the identification of clinically-relevant genomics findings in brain tumours, especially regarding gliomas.",
+        logo_path = "images/NOT_logo.svg"
+    ),
+    generate_div(
+        role_and_company = "Research Group Member - ACU Brain tumour Research Group",
+        years = "2012-",
+        description = "Participate in research on brain tumours, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.",
+        logo_path = "images/AUBTRG_logo.svg"
+    )
+)
 
----
+slickR(experiences) + 
+    settings(dots = TRUE, adaptiveHeight = TRUE, draggable = TRUE, autoplay = TRUE, autoplaySpeed = 4000)
+```
 
-:::: {.columns}
-::: {.column width="20%"}
-![](images/ACU_logo.png)
-:::
-::: {.column width="80%"}
-### Lecturer - Acibadem University
-#### 2021-2023
-Worked as a lecturer for the undergrad and grad courses on biostatistics and bioinformatics topics.
-:::
-::::
+# Skills
 
----
+```{r, echo=FALSE}
+skill_rating <- function(skill, logo_fname, rating) {
+    RATING_HEIGHT <- 15
+    LOGO_HEIGHT <- 45
+    rating_vec <- c(
+        rep(as.character(img(src="images/raw/rating1.svg", height = RATING_HEIGHT)), rating), 
+        rep(as.character(img(src="images/raw/rating0.svg", height = RATING_HEIGHT)), 3 - rating)
+    )
+    
+    logo <- as.character(img(src=file.path("images/raw", logo_fname), alt = skill, height = LOGO_HEIGHT))
+    
+    result <- paste0("<table><tr><td>", logo, "</td></tr><tr><td>", paste(rating_vec, collapse = ""), "</td></tr></table>")
+    result <- paste0('<div style="display: inline-block;margin-right: 20px;text-align: center;">', result, "</div>   ")
+    return(result)
+}
+```
 
-:::: {.columns}
-::: {.column width="20%"}
-![](images/epigenetiks_logo.png)
-:::
-::: {.column width="80%"}
-### Bioinformatics Specialist - Epigenetiks
-#### 2018-2023
-Worked on developing and maintaining multiple whole exome sequencing-based analysis pipelines (cancer and rare disease applications) for the Istambul-based medical diagnostics company.
-:::
-::::
+## Programming
+`r skill_rating("Python", "Python-logo-notext.svg", 3)`
+`r skill_rating("R", "Rlogo.svg", 3)` 
+`r skill_rating("bash", "bash_logo.png", 2)`
 
----
+## Development
+`r skill_rating("git", "Git-Logo-2Color.svg", 2)`
+`r skill_rating("docker", "docker_logo.svg", 1)`
+`r skill_rating("PyCharm", "PyCharm_Icon.svg", 2)`
+`r skill_rating("GitLab CI/CD", "gitlab-ci-cd.svg", 1)`
+`r skill_rating("GitHub Actions", "githubactions.svg", 1)`
 
-:::: {.columns}
-::: {.column width="20%"}
-![](images/yale-logo.svg)
-:::
-::: {.column width="80%"}
-### Postdoctoral Associate - Yale University
-#### 2016
-Briefly worked as a post-doc associate at the Gunel Lab, Yale School of Medicine, where I had previously done multiple internships between 2011-2014. Research in neurogenetics, particularly malformations of cortical development and brain tumours, performing functional in-vitro analyses to investigate the effect of a SNP in the pathogenesis of gliomas.
-:::
-::::
-
----
-
-:::: {.columns}
-::: {.column width="20%"}
-![](images/NOT_logo.svg)
-:::
-::: {.column width="80%"}
-### Bioinformatics Consultant - NeuroOncology Technologies
-#### 2015-2023
-Developed and maintained the Whole Exome Sequencing pipeline for the local medical diagnostics company based in Istanbul-Turkey. The pipeline allows for the identification of clinically-relevant genomics findings in brain tumours, especially regarding gliomas.
-:::
-::::
-
----
-
-:::: {.columns}
-::: {.column width="20%"}
-![](images/AUBTRG_logo.svg)
-:::
-::: {.column width="80%"}
-### Research Group Member - ACU Brain tumour Research Group
-#### 2012-
-Participate in research on brain tumours, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.
-:::
-::::
+## Workflow Management
+`r skill_rating("Nectflow", "nextflow-logo-bg-light.svg", 2)`
+`r skill_rating("snakemake", "snakemake_logo.png", 2)`

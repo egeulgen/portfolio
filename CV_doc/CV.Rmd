@@ -38,7 +38,7 @@ tribble(
   ~ Experience, ~ Year, ~ Institution, ~Description,
   "Bioinformatics Engineer", "2023-", "Genomics England", "Developing features for and maintaining software for the cancer genomic medicine service.",
   "Lecturer", "2021-2023", "Acibadem University", "Worked as a lecturer for the undergrad and grad courses on biostatistics and bioinformatics topics.",
-  "Bioinformatics Specialist", "2018-2023", "Epigenetiks", "Worked on developing and maintaining multiple whole exome sequencing-based analysis pipelines (cancer and rare disease applications) for the Istambul-based medical diagnostics company.",
+  "Bioinformatics Specialist", "2018-2023", "Epigenetiks", "Worked on developing and maintaining multiple whole exome sequencing-based analysis pipelines (cancer and rare disease applications) for the Istanbul-based medical diagnostics company.",
   "Postdoctoral Associate", "2016", "Yale University", "Briefly worked as a post-doc associate at the Gunel Lab, Yale School of Medicine, where I had previously done multiple internships between 2011-2014. Research in neurogenetics, particularly malformations of cortical development and brain tumours, performing functional in-vitro analyses to investigate the effect of a SNP in the pathogenesis of gliomas.",
   "Bioinformatics Consultant", "2015-2023", "NeuroOncology Technologies", "Developed and maintained the Whole Exome Sequencing pipeline for the local medical diagnostics company based in Istanbul-Turkey. The pipeline allows for the identification of clinically-relevant genomics findings in brain tumours, especially regarding gliomas",
   "Research Group Member", "2012-", "ACU Brain tumour Research Group", "Participate in research on brain tumours, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.",
@@ -54,9 +54,13 @@ tribble(
 
 ## Development
 
-![git](../images/Git-Logo-2Color.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![docker](../images/docker_logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) 
+![git](../images/Git-Logo-2Color.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![docker](../images/docker_logo.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png) 
 
 ![PyCharm](../images/PyCharm_Icon.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![GitLab CI/CD](../images/gitlab-ci-cd.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png)  ![GitHub Actions](../images/githubactions.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png) 
+
+## Workflow Management
+
+![nextflow](../images/nextflow-logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![snakemake](../images/snakemake_logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) 
 
 # Strengths
 

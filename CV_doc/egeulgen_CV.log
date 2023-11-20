@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  19 NOV 2023 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.20)  20 NOV 2023 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,9 +797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--204
 
  []
 
-[1
 
-{/home/runner/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc} <../images/Python-logo-notext.png> <../images/rating1.png> <../images/Rlogo.png> <../images/bash_logo.png> <../images/rating0.png> <../images/Git-Logo-2Color.png> <../images/docker_logo.png> <../images/PyCharm_Icon.png> <../images/gitlab-ci-cd.png> <../images/githubactions.png> <../images/eu_pp.jpg>]
 Underfull \hbox (badness 3601) in paragraph at lines 211--211
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Ma-chine Learn-ing. Grade: 94.8% ^^U cours-
  []
@@ -844,16 +842,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--220
 
  []
 
+[1
+
+{/home/runner/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc} <../images/Python-logo-notext.png> <../images/rating1.png> <../images/Rlogo.png> <../images/bash_logo.png> <../images/rating0.png> <../images/Git-Logo-2Color.png> <../images/docker_logo.png> <../images/PyCharm_Icon.png> <../images/gitlab-ci-cd.png> <../images/githubactions.png> <../images/eu_pp.jpg>]
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
 (Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 230.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
 (Font)              scaled to size 10.0pt on input line 230.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 307.
+(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 321.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 307.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 321.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 307.
+(Font)              scaled to size 10.0pt on input line 321.
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -904,13 +905,13 @@ Package rerunfilecheck Info: File `egeulgen_CV.out' has not changed.
 Here is how much of TeX's memory you used:
  23156 strings out of 476227
  427076 string characters out of 5796560
- 1959555 words of memory out of 5000000
+ 1962555 words of memory out of 5000000
  44671 multiletter control sequences out of 15000+600000
  594215 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,12n,121p,589b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/runner/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on egeulgen_CV.pdf (4 pages, 195155 bytes).
+Output written on egeulgen_CV.pdf (4 pages, 194774 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream

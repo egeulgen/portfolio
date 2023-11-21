@@ -4,11 +4,10 @@
 	 viewBox="0 0 4054 730" style="enable-background:new 0 0 4054 730;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#245581;}
-	.st1{fill:#E8E7E7;}
 </style>
 <g>
 	<rect x="150.3" y="222" class="st0" width="1177.4" height="291.2"/>
-	<rect x="1438.3" y="216.8" class="st1" width="1177.4" height="291.2"/>
-	<rect x="2726.3" y="216.8" class="st1" width="1177.4" height="291.2"/>
+	<rect x="1438.3" y="216.8" class="st0" width="1177.4" height="291.2"/>
+	<rect x="2726.3" y="216.8" class="st0" width="1177.4" height="291.2"/>
 </g>
 </svg>

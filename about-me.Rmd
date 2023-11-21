@@ -95,14 +95,11 @@ slickR(experiences) +
 skill_rating <- function(skill, logo_fname, rating) {
     RATING_HEIGHT <- 15
     LOGO_HEIGHT <- 45
-    rating_vec <- c(
-        rep(as.character(img(src="images/raw/rating1.svg", height = RATING_HEIGHT)), rating), 
-        rep(as.character(img(src="images/raw/rating0.svg", height = RATING_HEIGHT)), 3 - rating)
-    )
+    rating_elem <- as.character(img(src=file.path("images/raw/", paste0("rating", rating, ".svg")), height = RATING_HEIGHT))
     
     logo <- as.character(img(src=file.path("images/raw", logo_fname), alt = skill, height = LOGO_HEIGHT))
     
-    result <- paste0("<table><tr><td>", logo, "</td></tr><tr><td>", paste(rating_vec, collapse = ""), "</td></tr></table>")
+    result <- paste0("<table><tr><td>", logo, "</td></tr><tr><td>", rating_elem, "</td></tr></table>")
     result <- paste0('<div style="display: inline-block;margin-right: 20px;text-align: center;">', result, "</div>   ")
     return(result)
 }

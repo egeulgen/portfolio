@@ -18,6 +18,14 @@ output:
   flex-direction: column;
   margin-right: 20px; /* Adjust the margin as needed */
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
 ```
 
 :::: {.columns}

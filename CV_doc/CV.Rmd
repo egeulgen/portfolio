@@ -50,17 +50,27 @@ tribble(
 
 ## Programming
 
-![Python](../images/Python-logo-notext.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating1.png) ![R](../images/Rlogo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating1.png) ![bash](../images/bash_logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png)
+Python \hfill ![](../images/rating3.png)
+
+R \hfill ![](../images/rating3.png) 
+
+bash \hfill ![](../images/rating2.png)
 
 ## Development
 
-![git](../images/Git-Logo-2Color.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![docker](../images/docker_logo.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png) 
+git \hfill ![](../images/rating2.png)
 
-![PyCharm](../images/PyCharm_Icon.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![GitLab CI/CD](../images/gitlab-ci-cd.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png)  ![GitHub Actions](../images/githubactions.png) ![](../images/rating1.png) ![](../images/rating0.png) ![](../images/rating0.png) 
+docker \hfill ![](../images/rating1.png) 
+
+GitLab CI/CD \hfill ![](../images/rating1.png)
+
+GitHub Actions \hfill ![](../images/rating1.png)
 
 ## Workflow Management
 
-![nextflow](../images/nextflow-logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) ![snakemake](../images/snakemake_logo.png) ![](../images/rating1.png) ![](../images/rating1.png) ![](../images/rating0.png) 
+nextflow \hfill ![](../images/rating2.png)
+
+snakemake \hfill ![](../images/rating2.png)
 
 # Strengths
 

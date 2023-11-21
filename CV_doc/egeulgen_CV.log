@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.20)  20 NOV 2023 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.21)  21 NOV 2023 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,245 +649,112 @@ LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <12> not available
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 143.
-<../images/Python-logo-notext.png, id=11, 15.8994pt x 19.272pt>
-File: ../images/Python-logo-notext.png Graphic file (type png)
-<use ../images/Python-logo-notext.png>
-Package pdftex.def Info: ../images/Python-logo-notext.png  used on input line 145.
-(pdftex.def)             Requested size: 15.89934pt x 19.27194pt.
-<../images/rating1.png, id=13, 12.045pt x 12.045pt>
+<../images/rating3.png, id=11, 91.542pt x 7.227pt>
+File: ../images/rating3.png Graphic file (type png)
+<use ../images/rating3.png>
+Package pdftex.def Info: ../images/rating3.png  used on input line 145.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
+File: ../images/rating3.png Graphic file (type png)
+<use ../images/rating3.png>
+Package pdftex.def Info: ../images/rating3.png  used on input line 147.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
+<../images/rating2.png, id=13, 91.542pt x 7.227pt>
+File: ../images/rating2.png Graphic file (type png)
+<use ../images/rating2.png>
+Package pdftex.def Info: ../images/rating2.png  used on input line 149.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
+File: ../images/rating2.png Graphic file (type png)
+<use ../images/rating2.png>
+Package pdftex.def Info: ../images/rating2.png  used on input line 154.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
+<../images/rating1.png, id=14, 91.542pt x 7.227pt>
 File: ../images/rating1.png Graphic file (type png)
 <use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 146.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
+Package pdftex.def Info: ../images/rating1.png  used on input line 156.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
 File: ../images/rating1.png Graphic file (type png)
 <use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 147.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
+Package pdftex.def Info: ../images/rating1.png  used on input line 158.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
 File: ../images/rating1.png Graphic file (type png)
 <use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 148.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/Rlogo.png, id=14, 25.0536pt x 19.272pt>
-File: ../images/Rlogo.png Graphic file (type png)
-<use ../images/Rlogo.png>
-Package pdftex.def Info: ../images/Rlogo.png  used on input line 149.
-(pdftex.def)             Requested size: 25.05353pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 150.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 151.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 152.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/bash_logo.png, id=15, 44.5665pt x 19.272pt>
-File: ../images/bash_logo.png Graphic file (type png)
-<use ../images/bash_logo.png>
-Package pdftex.def Info: ../images/bash_logo.png  used on input line 153.
-(pdftex.def)             Requested size: 44.56638pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 154.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 155.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/rating0.png, id=16, 12.045pt x 12.045pt>
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 156.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/Git-Logo-2Color.png, id=17, 46.0119pt x 19.272pt>
-File: ../images/Git-Logo-2Color.png Graphic file (type png)
-<use ../images/Git-Logo-2Color.png>
-Package pdftex.def Info: ../images/Git-Logo-2Color.png  used on input line 161.
-(pdftex.def)             Requested size: 46.01178pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 162.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 163.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 164.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/docker_logo.png, id=18, 74.9199pt x 19.272pt>
-File: ../images/docker_logo.png Graphic file (type png)
-<use ../images/docker_logo.png>
-Package pdftex.def Info: ../images/docker_logo.png  used on input line 165.
-(pdftex.def)             Requested size: 74.91971pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 166.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 167.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 168.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/PyCharm_Icon.png, id=19, 19.272pt x 19.272pt>
-File: ../images/PyCharm_Icon.png Graphic file (type png)
-<use ../images/PyCharm_Icon.png>
-Package pdftex.def Info: ../images/PyCharm_Icon.png  used on input line 170.
-(pdftex.def)             Requested size: 19.27194pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 171.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 172.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 173.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/gitlab-ci-cd.png, id=20, 42.1575pt x 19.272pt>
-File: ../images/gitlab-ci-cd.png Graphic file (type png)
-<use ../images/gitlab-ci-cd.png>
-Package pdftex.def Info: ../images/gitlab-ci-cd.png  used on input line 174.
-(pdftex.def)             Requested size: 42.15738pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 175.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 176.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 177.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/githubactions.png, id=21, 40.4712pt x 19.272pt>
-File: ../images/githubactions.png Graphic file (type png)
-<use ../images/githubactions.png>
-Package pdftex.def Info: ../images/githubactions.png  used on input line 178.
-(pdftex.def)             Requested size: 40.4711pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 179.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 180.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 181.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/nextflow-logo.png, id=22, 118.041pt x 19.272pt>
-File: ../images/nextflow-logo.png Graphic file (type png)
-<use ../images/nextflow-logo.png>
-Package pdftex.def Info: ../images/nextflow-logo.png  used on input line 186.
-(pdftex.def)             Requested size: 118.0407pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 187.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 188.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 189.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-<../images/snakemake_logo.png, id=23, 78.2925pt x 19.272pt>
-File: ../images/snakemake_logo.png Graphic file (type png)
-<use ../images/snakemake_logo.png>
-Package pdftex.def Info: ../images/snakemake_logo.png  used on input line 190.
-(pdftex.def)             Requested size: 78.2923pt x 19.27194pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 191.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating1.png Graphic file (type png)
-<use ../images/rating1.png>
-Package pdftex.def Info: ../images/rating1.png  used on input line 192.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
-File: ../images/rating0.png Graphic file (type png)
-<use ../images/rating0.png>
-Package pdftex.def Info: ../images/rating0.png  used on input line 193.
-(pdftex.def)             Requested size: 12.04495pt x 12.04495pt.
+Package pdftex.def Info: ../images/rating1.png  used on input line 160.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
+File: ../images/rating2.png Graphic file (type png)
+<use ../images/rating2.png>
+Package pdftex.def Info: ../images/rating2.png  used on input line 165.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
+File: ../images/rating2.png Graphic file (type png)
+<use ../images/rating2.png>
+Package pdftex.def Info: ../images/rating2.png  used on input line 167.
+(pdftex.def)             Requested size: 91.54178pt x 7.22697pt.
 
-Underfull \hbox (badness 5161) in paragraph at lines 212--212
+Underfull \hbox (badness 5161) in paragraph at lines 186--186
 [][]\T1/ClearSans-TLF/regular/n/10 PANACEA. Per-son-al-ized Network-Based Anti-Cancer Ther-apy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--216
+Underfull \hbox (badness 10000) in paragraph at lines 184--190
 
  []
 
 [1
 
-{/home/runner/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc} <../images/Python-logo-notext.png> <../images/rating1.png> <../images/Rlogo.png> <../images/bash_logo.png> <../images/rating0.png> <../images/Git-Logo-2Color.png> <../images/docker_logo.png> <../images/PyCharm_Icon.png> <../images/gitlab-ci-cd.png> <../images/githubactions.png> <../images/nextflow-logo.png> <../images/snakemake_logo.png> <../images/eu_pp.jpg>]
-Underfull \hbox (badness 3601) in paragraph at lines 223--223
+{/home/runner/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/runner/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc} <../images/rating3.png> <../images/rating2.png> <../images/rating1.png> <../images/eu_pp.jpg>]
+Underfull \hbox (badness 3601) in paragraph at lines 197--197
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Ma-chine Learn-ing. Grade: 94.8% ^^U cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Find-ing Hid-den Mes-sages in DNA (Bioin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/ClearSans-TLF/regular/n/10 for-mat-ics I) (with Hon-ors). Grade: 96.0% ^^U cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Com-par-ing Genes, Pro-teins, and Genomes
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 226--226
+Underfull \hbox (badness 1701) in paragraph at lines 200--200
 \T1/ClearSans-TLF/regular/n/10 (Bioin-for-mat-ics III) (with Hon-ors). Grade: 100% ^^U cours-
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 228--228
+Underfull \hbox (badness 3657) in paragraph at lines 202--202
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Ge-nomic Data Sci-ence and Clus-ter-ing (Bioin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
 \T1/ClearSans-TLF/regular/n/10 for-mat-ics V) (with Hon-ors). Grade: 94.0% ^^U cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 [][]\T1/ClearSans-TLF/regular/n/10 Certificate in Bioin-for-mat-ics Spe-cial-iza-tion. cours-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--232
+Underfull \hbox (badness 10000) in paragraph at lines 196--206
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 242.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 216.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 242.
+(Font)              scaled to size 10.0pt on input line 216.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 319.
+(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 293.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 319.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 293.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 319.
+(Font)              scaled to size 10.0pt on input line 293.
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -936,18 +803,18 @@ Package rerunfilecheck Info: File `egeulgen_CV.out' has not changed.
  )
 (\end occurred when \ifnum on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 23172 strings out of 476227
- 427597 string characters out of 5796560
- 1959555 words of memory out of 5000000
- 44686 multiletter control sequences out of 15000+600000
+ 23110 strings out of 476227
+ 425533 string characters out of 5796554
+ 1953555 words of memory out of 5000000
+ 44623 multiletter control sequences out of 15000+600000
  594215 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,12n,121p,589b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/runner/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></home/runner/.TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on egeulgen_CV.pdf (4 pages, 225595 bytes).
+Output written on egeulgen_CV.pdf (4 pages, 116177 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
  51 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

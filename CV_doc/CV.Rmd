@@ -132,3 +132,8 @@ bib_entries <- bibliography_entries("egeulgen.bib")
 bib_entries <- bib_entries[order(bib_entries$issued, decreasing = TRUE), ]
 bib_entries
 ```
+
+# References
+
+Available upon request
+

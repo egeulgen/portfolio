@@ -6,6 +6,7 @@ address: "Genomics England Limited"
 phone: +44 7796 427839
 pronouns: he/him
 profilepic: ../images/eu_pp.jpg
+www: egeulgen.github.io/portfolio
 email: "Ege.Ulgen@genomicsengland.co.uk"
 github: egeulgen
 linkedin: ege-ulgen

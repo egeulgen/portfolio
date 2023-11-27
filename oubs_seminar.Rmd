@@ -1,0 +1,15 @@
+---
+title: "Career Journey Seminar - Oxford University"
+output:
+    html_document:
+        code_download: false
+        toc: false
+        number_sections: false
+        code_folding: "none"
+---
+
+<object data="presentations/OUBS_presentation.pdf" type="application/pdf" width="800px" height="700px">
+    <embed src="presentations/OUBS_presentation.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="presentations/OUBS_presentation.pdf">Download PDF</a>.</p>
+    </embed>
+</object>

@@ -10,18 +10,20 @@ navbar:
     - text: "Sofware"
       icon: fas fa-code
       href: software.html
-    - text: "Courses"
+    - text: "Talks and Courses"
       icon: fa-chalkboard-teacher
       menu:
-        - text: "Biostatistics (2021)"
+        - text: "Career Journey Seminar - Oxford University"
+          href: oubs_seminar.html
+        - text: "Biostatistics Course (2021)"
           href: udergrad_stats_21.html
-        - text: "Probability and Statistics (2021)"
+        - text: "Probability and Statistics Course (2021)"
           href: grad_stats_21.html
-        - text: "Special Topics in Biostatistics and Bioinformatics"
+        - text: "Special Topics in Biostatistics and Bioinformatics Course"
           href: grad_bioinfo.html
-        - text: "Biostatistics (2022)"
+        - text: "Biostatistics Course (2022)"
           href: udergrad_stats_22.html
-        - text: "Probability and Statistics (2022)"
+        - text: "Probability and Statistics Course (2022)"
           href: grad_stats_22.html
   right:
     - icon: fas fa-square-envelope

@@ -8,6 +8,9 @@ output:
         code_folding: "none"
 ---
 
+
+Below is the link to the repo containing lecture notes for the undergrad-level "Biostatics" course I gave in 2022 to medical students. The course aimed to provide a basic understanding of biostatistics, specifically focusing on basic statistical tests and how to correctly interpret hypothesis testing results, with a gentle introduction to regression models.
+
 [https://github.com/egeulgen/MED131_22_23](https://github.com/egeulgen/MED131_22_23)
 
 ```{r echo=FALSE}

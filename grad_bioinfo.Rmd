@@ -1,5 +1,5 @@
 ---
-title: "Special Topics in Biostatistics and Bioinformatics - Lecture Notes - 2021"
+title: "Special Topics in Biostatistics and Bioinformatics - Lecture Notes - 2022"
 output:
     html_document:
         code_download: false
@@ -7,6 +7,8 @@ output:
         number_sections: false
         code_folding: "none"
 ---
+
+Below is the link to the repo containing lecture notes for the PhD-level "Special Topics in Biostatistics and Bioinformatics" course that I instructed in 2022. Although there wasn't any pre-requisites, this course aimed to build on previous courses in the bioinformatics PhD curriculum to deliver common practical applications of bioinformatics approaches. 
 
 [https://github.com/egeulgen/BB512_BB612_21_22](https://github.com/egeulgen/BB512_BB612_21_22)
 

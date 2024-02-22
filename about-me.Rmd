@@ -15,73 +15,46 @@ My CV (PDF) is also available [here](./CV_doc/egeulgen_CV.pdf)
 # Experience
 
 ```{r, echo=FALSE}
-library(slickR)
-library(htmltools)
-
-generate_div <- function(role_and_company, years, description, logo_path) {
-    description_div <- tags$div(
-        tags$h3(role_and_company,
-                style = css(color = "black")), 
-        tags$div(
-            tags$h4(years,
-                    style = css(color = "black")), 
-            tags$p(description,
-                   style = css(color = "black"))
-        )
-    )
-    
-    d <- tags$div(
-        style = css(display = "flex", "align-items" = "center"),
-        tags$div(
-            style = css(display = "flex", "flex-direction" = "column", "margin-right" = "20px", width = "20%"),
-            tags$img(src=logo_path)
-        ),
-        tags$div(
-            style = css(display = "flex", "flex-direction" = "column", "margin-right" = "20px", width = "80%", "text-align" = "left"), 
-            description_div
-        )
-    )
-    return(d)
-}
+source("utils.R")
 ```
 
 ```{r, echo=FALSE, out.height="200px"}
 experiences <- slick_list(
     generate_div(
-        role_and_company = "Bioinformatics Engineer - Genomics England",
-        years = "2023-",
+        header = "Bioinformatics Engineer - Genomics England",
+        sub_header = "2023-",
         description = "Developing features for and maintaining software for the cancer genomic medicine service.",
-        logo_path = "images/Genomics_England_logo.svg"
+        img_path = "images/Genomics_England_logo.svg"
     ),
     generate_div(
-        role_and_company = "Lecturer - Acibadem University",
-        years = "2021-2023",
+        header = "Lecturer - Acibadem University",
+        sub_header = "2021-2023",
         description = "Worked as a lecturer for the undergrad and grad courses on biostatistics and bioinformatics topics.",
-        logo_path = "images/ACU_logo.png"
+        img_path = "images/ACU_logo.png"
     ),
     generate_div(
-        role_and_company = "Bioinformatics Specialist - Epigenetiks",
-        years = "2018-2023",
+        header = "Bioinformatics Specialist - Epigenetiks",
+        sub_header = "2018-2023",
         description = "Worked on developing and maintaining multiple whole exome sequencing-based analysis pipelines (cancer and rare disease applications) for the Istanbul-based medical diagnostics company.",
-        logo_path = "images/epigenetiks_logo.png"
+        img_path = "images/epigenetiks_logo.png"
     ),
     generate_div(
-        role_and_company = "Postdoctoral Associate - Yale University",
-        years = "2016",
+        header = "Postdoctoral Associate - Yale University",
+        sub_header = "2016",
         description = "Briefly worked as a post-doc associate at the Gunel Lab, Yale School of Medicine, where I had previously done multiple internships between 2011-2014. Research in neurogenetics, particularly malformations of cortical development and brain tumours, performing functional in-vitro analyses to investigate the effect of a SNP in the pathogenesis of gliomas.",
-        logo_path = "images/yale-logo.svg"
+        img_path = "images/yale-logo.svg"
     ),
     generate_div(
-        role_and_company = "Bioinformatics Consultant - NeuroOncology Technologies",
-        years = "2015-2023",
+        header = "Bioinformatics Consultant - NeuroOncology Technologies",
+        sub_header = "2015-2023",
         description = "Developed and maintained the Whole Exome Sequencing pipeline for the local medical diagnostics company based in Istanbul-Turkey. The pipeline allows for the identification of clinically-relevant genomics findings in brain tumours, especially regarding gliomas.",
-        logo_path = "images/NOT_logo.svg"
+        img_path = "images/NOT_logo.svg"
     ),
     generate_div(
-        role_and_company = "Research Group Member - ACU Brain tumour Research Group",
-        years = "2012-",
+        header = "Research Group Member - ACU Brain tumour Research Group",
+        sub_header = "2012-",
         description = "Participate in research on brain tumours, particularly on gliomas. I assist in biostatistical as well as bioinformatics analyses, focusing on the integration of molecular biological and clinical data to improve diagnosis, prognosis and treatment of glioma.",
-        logo_path = "images/AUBTRG_logo.svg"
+        img_path = "images/AUBTRG_logo.svg"
     )
 )
 

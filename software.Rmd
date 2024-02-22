@@ -1,5 +1,5 @@
 ---
-title: "Selected Software"
+title: Selected Software
 output:
     html_document:
         code_download: false
@@ -8,4 +8,37 @@ output:
         code_folding: "none"
 ---
 
-TODO
+Below are a number of selected software I developed with links to the corresponding repos as well as methodology articles, where applicable.
+
+```{r, echo=FALSE}
+source("utils.R")
+```
+
+```{r, echo=FALSE, out.height="200px"}
+experiences <- slick_list(
+    generate_div(
+        header = "pathfindR",
+        sub_header = tags$a(href="https://github.com/egeulgen/pathfindR", "https://github.com/egeulgen/pathfindR"),
+        description = "pathfindR is an R package for enrichment analysis via active subnetworks. The package also offers functionality to cluster the enriched terms and identify representative terms in each cluster, score the enriched terms per sample, and visualize analysis results. As of the latest version, the package also allows comparison of two pathfindR results.
+        Ulgen E, Ozisik O, Sezerman OU. 2019. pathfindR: An R Package for Comprehensive Identification of Enriched Pathways in Omics Data Through Active Subnetworks. Front. Genet. https://doi.org/10.3389/fgene.2019.00858",
+        img_path = "https://raw.githubusercontent.com/egeulgen/pathfindR/master/inst/extdata/logo.png"
+    ),
+    generate_div(
+        header = "driveR",
+        sub_header = tags$a(href="https://github.com/egeulgen/driveR", "https://github.com/egeulgen/driveR"),
+        description = "driveR is a tool for personalized or batch analysis of genomics data for driver gene prioritization by combining genomics information and prior biological knowledge. As features, driveR uses coding impact metaprediction scores, non-coding impact scores, somatic copy number alteration scores, hotspot gene/double-hit gene condition, ‘phenolyzer’ gene scores and memberships to cancer-related KEGG pathways. It uses these features to estimate cancer-type-specific probabilities for each gene of being a cancer driver using the related task of a multi-task learning classification model.
+        Ülgen E, Sezerman OU. driveR: a novel method for prioritizing cancer driver genes using somatic genomics data. BMC Bioinformatics. 2021 May 24;22(1):263.https://doi.org/10.1186/s12859-021-04203-7",
+        img_path = "https://raw.githubusercontent.com/egeulgen/driveR/master/inst/extdata/driveR_logo.png"
+    ),
+    generate_div(
+        header = "PANACEA",
+        sub_header = tags$a(href="https://github.com/egeulgen/PANACEA", "https://github.com/egeulgen/PANACEA"),
+        description = "PANACEA is a collection of personalized anti-cancer drug prioritization approaches utilizing network methods. The methods utilize personalized “driverness” scores from driveR to rank drugs, mapping these onto a protein-protein interaction network. The “distance-based” method scores each drug based on these scores and distances between drugs and genes to rank given drugs. The “RWR” method propagates these scores via a random-walk with restart framework to rank the drugs.
+        Ulgen E, Ozisik O, Sezerman OU. PANACEA: network-based methods for pharmacotherapy prioritization in personalized oncology. Bioinformatics. 2023 Jan 1;39(1):btad022. https://doi.org/10.1093/bioinformatics/btad022",
+        img_path = "https://raw.githubusercontent.com/egeulgen/PANACEA/master/inst/extdata/PANACEA_logo.png"
+    )
+)
+
+slickR(experiences) + 
+    settings(dots = TRUE, adaptiveHeight = TRUE, draggable = TRUE, autoplay = TRUE, autoplaySpeed = 3000)
+```

@@ -37,7 +37,7 @@ tribble(
 ```{r}
 tribble(
   ~ Experience, ~ Year, ~ Institution, ~Description,
-  "Bioinformatics Engineer", "2023-", "Genomics England", "Developing features for and maintaining software for the cancer genomic medicine service.",
+  "Bioinformatics Engineer", "2023-", "Genomics England", "Developing features and maintaining software for the cancer genomic medicine service.",
   "Lecturer", "2021-2023", "Acibadem University", "Worked as a lecturer for the undergrad and grad courses on biostatistics and bioinformatics topics.",
   "Bioinformatics Specialist", "2018-2023", "Epigenetiks", "Worked on developing and maintaining multiple whole exome sequencing-based analysis pipelines (cancer and rare disease applications) for the Istanbul-based medical diagnostics company.",
   "Postdoctoral Associate", "2016", "Yale University", "Briefly worked as a post-doc associate at the Gunel Lab, Yale School of Medicine, where I had previously done multiple internships between 2011-2014. Research in neurogenetics, particularly malformations of cortical development and brain tumours, performing functional in-vitro analyses to investigate the effect of a SNP in the pathogenesis of gliomas.",
